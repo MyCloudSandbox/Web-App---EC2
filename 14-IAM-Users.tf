@@ -1,4 +1,5 @@
 #This is for creating a user that will go into a group
+
 resource "aws_iam_user" "Director1" {
     name = "Director1"
 }

@@ -1,3 +1,4 @@
+# This Terraform configuration creates an AWS Launch Template for an EC2 instance with a web server.
 resource "aws_launch_template" "app1_LT" {
   name_prefix   = "app1_LT"
   image_id      = "ami-0cf6f2b898ac0b337"  

@@ -1,3 +1,5 @@
+# This file contains the configuration for an AWS Application Load Balancer (ALB) and its listener.
+
 resource "aws_lb" "app1_alb" {
   name               = "app1-load-balancer"
   internal           = false

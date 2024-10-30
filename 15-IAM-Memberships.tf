@@ -1,4 +1,5 @@
 #This is to associate a user with a group
+
 resource "aws_iam_user_group_membership" "Directors" {
   user = aws_iam_user.Director1.name
 

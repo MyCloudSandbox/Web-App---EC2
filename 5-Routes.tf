@@ -1,3 +1,4 @@
+# This file defines the route tables and their associations for the VPC.
 resource "aws_route_table" "private" {
   vpc_id = aws_vpc.app1.id
 

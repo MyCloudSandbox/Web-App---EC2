@@ -1,3 +1,4 @@
+# This file contains the security group configuration for the application servers and load balancer.
 resource "aws_security_group" "app1-sg01-servers" {
 name        = "app1-sg01-servers"
   description = "app1-sg01-servers"

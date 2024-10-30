@@ -1,3 +1,5 @@
+# This file defines an AWS Application Load Balancer target group for an application named "App1".
+
 resource "aws_lb_target_group" "app1_tg" {
   name     = "app1-target-group"
   port     = 80

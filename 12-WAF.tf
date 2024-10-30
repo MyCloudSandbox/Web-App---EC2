@@ -1,5 +1,4 @@
-#aws_lb.app1_alb.dns.name
-
+# This Terraform configuration sets up an AWS WAFv2 Web ACL with rules for blocking specific IP addresses,
 
 resource "aws_wafv2_web_acl" "app1_waf_acl" {
   name        = "app1-web-acl"

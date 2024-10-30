@@ -1,4 +1,5 @@
-#These are user groups
+# This Terraform configuration file creates four IAM groups in AWS: Directors, Managers, Associates, and Trainees.
+
 resource "aws_iam_group" "Directors" {
   name = "Directors"
 }

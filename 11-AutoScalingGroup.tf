@@ -1,3 +1,5 @@
+# This Terraform configuration creates an Auto Scaling Group (ASG) for an application, along with a scaling policy and instance protection settings.
+
 resource "aws_autoscaling_group" "app1_asg" {
   name_prefix           = "app1-auto-scaling-group-"
   min_size              = 3
