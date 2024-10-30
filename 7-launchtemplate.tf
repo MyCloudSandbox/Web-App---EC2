@@ -38,7 +38,7 @@ resource "aws_launch_template" "app1_LT" {
     <body>
     <div>
     <h1>AWS Warriors</h1>
-    <h1>Nothing Over My Passport</h1>
+    <h1>I love cloud!</h1>
     <p><b>Instance Name:</b> $(hostname -f) </p>
     <p><b>Instance Private Ip Address: </b> $local_ipv4</p>
     <p><b>Availability Zone: </b> $az</p>

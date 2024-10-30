@@ -1,0 +1,28 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Ignore Terraform lock files
+*.terraform.lock.hcl*
+
+# Ignore .terraform directories
+.terraform/*
+.terraform\*
+
+# Ignore executable files
+*.exe
+
+# Ignore Terraform variables files
+*.tfvars
+*.tfvars.json
+
+# Ignore Terraform plan files
+*.tfplan
+
+# Ignore environment files
+.env
+.env.*
+
+# Ignore private keys
+*.pem
+*.key

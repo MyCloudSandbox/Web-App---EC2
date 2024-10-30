@@ -1,3 +1,4 @@
+# This Terraform configuration generates an RSA private key, extracts the corresponding public key, and creates an AWS key pair using the public key.
 resource "tls_private_key" "MyLinuxBox" {
   algorithm = "RSA"
   rsa_bits  = 2048
